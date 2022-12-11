@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>REGISTRATION PAGE</title>
+<link rel="stylesheet" href="registration.css">
+</head>
+<body>
+	<div class="chandu">
+			<div class="two">
+			<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="help.html">Help</a></li>
+				</ul>
+			</div>
+<div id="registration-form">
+	<div class='fieldset'>
+    <legend>Sign Up</legend>
+		<form action="#" method="post" data-validate="parsley">
+			<div class='row'>
+				<label for='firstname'>Full Name</label>
+				<input type="text" placeholder="Full Name" name='firstname' id='firstname' data-required="true" data-error-message="Your First Name is required">
+			</div>
+			<div class='row'>
+				<label for="phone number">Phone Number</label>
+				<input type="text" placeholder="Phone Number"  name=''number' data-required="true" data-type="number" data-error-message="Your  Phone number is required">
+			</div>
+			<div class='row'>
+				<label for="email">E-mail</label>
+				<input type="text" placeholder="E-mail"  name='email' data-required="true" data-type="email" data-error-message="Your E-mail is required">
+			</div>
+			<div class='row'>
+				<label for="cemail">Password</label>
+				<input type="text" placeholder="Enter Password" name='cemail' data-required="true" data-error-message="Your E-mail must correspond">
+			</div>
+			<input type="submit" value="Register">
+		</form>
+	</div>
+</div>
+</body>
+</html>
+
